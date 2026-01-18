@@ -1,46 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>KUET Bus 3D Visualization</title>
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            line-height: 1.6;
-            margin: 40px;
-            background-color: #f9f9f9;
-            color: #222;
-        }
-        h1, h2, h3 {
-            color: #003366;
-        }
-        h1 {
-            border-bottom: 3px solid #003366;
-            padding-bottom: 10px;
-        }
-        hr {
-            margin: 30px 0;
-        }
-        code {
-            background: #eee;
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-family: Consolas, monospace;
-        }
-        ul {
-            margin-left: 20px;
-        }
-        .note {
-            background: #eef5ff;
-            padding: 10px;
-            border-left: 4px solid #003366;
-            margin: 15px 0;
-        }
-    </style>
-</head>
-
-<body>
-
 <h1>🚌 Khulna University of Engineering and Technology<br>
 Bus 3D Visualization</h1>
 
@@ -50,6 +7,22 @@ A <strong>C++ / Modern OpenGL (3.3+)</strong> application that renders a detaile
 procedural geometry, indexed & non-indexed rendering, shader management,
 camera transformations, and interactive keyboard controls.
 </p>
+
+<img width="792" height="632" alt="Screenshot 2026-01-18 220158" src="https://github.com/user-attachments/assets/5a90adc9-2d92-4dbc-826b-e7d12a84913c" />
+<img width="793" height="638" alt="Screenshot 2026-01-18 220121" src="https://github.com/user-attachments/assets/d5b1b672-75c8-45cc-aef2-50e17f7ef8d4" />
+<img width="796" height="636" alt="Screenshot 2026-01-18 220045" src="https://github.com/user-attachments/assets/eefde1e7-a9aa-454a-a850-880f8eabca00" />
+<img width="799" height="635" alt="Screenshot 2026-01-18 220017" src="https://github.com/user-attachments/assets/235a96c7-5d3a-417e-914e-e39c7ebdbb0f" />
+<img width="795" height="635" alt="Screenshot 2026-01-18 215942" src="https://github.com/user-attachments/assets/c15431af-c20c-4dd2-b364-5dab52880fea" />
+<img width="796" height="630" alt="Screenshot 2026-01-18 215859" src="https://github.com/user-attachments/assets/b44bfd00-56da-4905-93df-ed7b1b5f7792" />
+<img width="796" height="631" alt="Screenshot 2026-01-18 215831" src="https://github.com/user-attachments/assets/08d48653-6f7d-4ea4-ac54-d45e55ef55aa" />
+<img width="798" height="634" alt="Screenshot 2026-01-18 215741" src="https://github.com/user-attachments/assets/c904b4f5-2486-42ff-af04-8057c1dbfc1d" />
+<img width="797" height="631" alt="Screenshot 2026-01-18 215717" src="https://github.com/user-attachments/assets/f2c07917-3942-4166-aff7-f72ff729bc20" />
+<img width="798" height="631" alt="Screenshot 2026-01-18 221054" src="https://github.com/user-attachments/assets/4450ced3-99c9-4f34-8489-7278b065f9d9" />
+<img width="794" height="632" alt="Screenshot 2026-01-18 221012" src="https://github.com/user-attachments/assets/60bbcb50-a56a-4200-a9c8-a178d1a34470" />
+<img width="797" height="636" alt="Screenshot 2026-01-18 220654" src="https://github.com/user-attachments/assets/079f8860-e9ea-46d8-9355-51d6f02c2163" />
+<img width="797" height="628" alt="Screenshot 2026-01-18 220641" src="https://github.com/user-attachments/assets/507382b7-ec51-48b0-b823-a66fe00e4103" />
+<img width="795" height="641" alt="Screenshot 2026-01-18 220318" src="https://github.com/user-attachments/assets/dab469b0-624a-4682-8a24-8ec876fdd164" />
+
 
 <hr>
 
