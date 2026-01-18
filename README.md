@@ -1,17 +1,5 @@
-<img width="799" height="635" alt="Screenshot 2026-01-18 220017" src="https://github.com/user-attachments/assets/b031ef1e-fb8e-4208-94db-9cc7a7663c6a" />
-<img width="795" height="635" alt="Screenshot 2026-01-18 215942" src="https://github.com/user-attachments/assets/e83e207f-c99e-494a-9e72-eb36520be90f" />
-<img width="796" height="630" alt="Screenshot 2026-01-18 215859" src="https://github.com/user-attachments/assets/72bac076-bb58-4cfa-8a7e-11c14ad5af4c" />
-<img width="796" height="631" alt="Screenshot 2026-01-18 215831" src="https://github.com/user-attachments/assets/d25a4a97-babb-4e3c-83d6-c82ecf4009f7" />
-<img width="798" height="634" alt="Screenshot 2026-01-18 215741" src="https://github.com/user-attachments/assets/b6c13a51-3275-4c54-b78f-4fec7f2cac1d" />
-<img width="797" height="631" alt="Screenshot 2026-01-18 215717" src="https://github.com/user-attachments/assets/feb5a5f0-5417-4fc0-bc2c-d18087ba84b3" />
-<img width="798" height="631" alt="Screenshot 2026-01-18 221054" src="https://github.com/user-attachments/assets/f966e31e-f2f0-4d01-a779-cd84a61d46ca" />
-<img width="794" height="632" alt="Screenshot 2026-01-18 221012" src="https://github.com/user-attachments/assets/191f9e7d-cc81-41ee-9d26-482e151e3aea" />
-<img width="797" height="636" alt="Screenshot 2026-01-18 220654" src="https://github.com/user-attachments/assets/e57f9ec0-1c2e-45aa-88ef-a5ca670b4fb3" />
-<img width="797" height="628" alt="Screenshot 2026-01-18 220641" src="https://github.com/user-attachments/assets/1401ea59-97d0-4a1e-a6b8-4139a0bf3e81" />
-<img width="795" height="641" alt="Screenshot 2026-01-18 220318" src="https://github.com/user-attachments/assets/e2ce4365-09f1-49ef-ac57-97ec135df4c8" />
-<img width="792" height="632" alt="Screenshot 2026-01-18 220158" src="https://github.com/user-attachments/assets/7a431815-2393-4e56-a630-8c2319ec7c5e" />
-<img width="793" height="638" alt="Screenshot 2026-01-18 220121" src="https://github.com/user-attachments/assets/8a51bceb-1b47-4915-bdac-cbfaf8570459" />
-<img width="796" height="636" alt="Screenshot 2026-01-18 220045" src="https://github.com/user-attachments/assets/5d8d66e6-cad1-418e-9f08-4ec6afc96b02" />
+[Bus_Assignment-cropped.pdf](https://github.com/user-attachments/files/24697239/Bus_Assignment-cropped.pdf)
+
 
 
 # Khulna University of Engineering and Technology Bus 3D Visualization
