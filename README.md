@@ -1,4 +1,18 @@
-[Bus_Assignment-cropped.pdf](https://github.com/user-attachments/files/24697239/Bus_Assignment-cropped.pdf)
+[Bus_Assignment-cropped.pdf](https://github.com/user-attachments/files/24697239/Bus_Assignment-<img width="792" height="632" alt="Screenshot 2026-01-18 220158" src="https://github.com/user-attachments/assets/9e87c9ad-5208-452c-9d12-b8029d66840d" />
+<img width="793" height="638" alt="Screenshot 2026-01-18 220121" src="https://github.com/user-attachments/assets/b6bcf1cd-b2e3-4f53-a02a-99befdba893e" />
+<img width="796" height="636" alt="Screenshot 2026-01-18 220045" src="https://github.com/user-attachments/assets/d0559743-c4fb-4143-9156-f883dfad18cc" />
+<img width="799" height="635" alt="Screenshot 2026-01-18 220017" src="https://github.com/user-attachments/assets/006f06c2-217a-46ff-83e0-bd22528f398b" />
+<img width="795" height="635" alt="Screenshot 2026-01-18 215942" src="https://github.com/user-attachments/assets/99c2dc09-1b94-4b11-9adf-b379892bda74" />
+<img width="796" height="630" alt="Screenshot 2026-01-18 215859" src="https://github.com/user-attachments/assets/0f7c7115-6508-46af-bb55-f88ad7671f33" />
+<img width="796" height="631" alt="Screenshot 2026-01-18 215831" src="https://github.com/user-attachments/assets/db9dc070-e447-4ee6-87c3-9594aa51505a" />
+<img width="798" height="634" alt="Screenshot 2026-01-18 215741" src="https://github.com/user-attachments/assets/91e44a9d-b499-42e4-8572-381759f59bd3" />
+<img width="797" height="631" alt="Screenshot 2026-01-18 215717" src="https://github.com/user-attachments/assets/6d5c0c42-9ad0-4dd5-a7fa-a87fbf134d8d" />
+<img width="798" height="631" alt="Screenshot 2026-01-18 221054" src="https://github.com/user-attachments/assets/277132cc-dc12-4998-9ff1-a04358f76517" />
+<img width="794" height="632" alt="Screenshot 2026-01-18 221012" src="https://github.com/user-attachments/assets/c334dada-018c-49b6-9cbf-aad227456cad" />
+<img width="797" height="636" alt="Screenshot 2026-01-18 220654" src="https://github.com/user-attachments/assets/5bf0672d-c631-467c-9ca8-798b71a91ede" />
+<img width="797" height="628" alt="Screenshot 2026-01-18 220641" src="https://github.com/user-attachments/assets/33a86ecf-44ed-4fed-baed-d8415815cd55" />
+<img width="795" height="641" alt="Screenshot 2026-01-18 220318" src="https://github.com/user-attachments/assets/55911ed7-0480-4b34-9e84-bfb9e8ceb559" />
+cropped.pdf)
 
 
 
