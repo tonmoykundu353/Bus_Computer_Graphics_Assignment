@@ -1,109 +1,185 @@
-[Bus_Assignment-cropped.pdf](https://github.com/user-attachments/files/24697239/Bus_Assignment-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>KUET Bus 3D Visualization</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            background-color: #f9f9f9;
+            color: #222;
+        }
+        h1, h2, h3 {
+            color: #003366;
+        }
+        h1 {
+            border-bottom: 3px solid #003366;
+            padding-bottom: 10px;
+        }
+        hr {
+            margin: 30px 0;
+        }
+        code {
+            background: #eee;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: Consolas, monospace;
+        }
+        ul {
+            margin-left: 20px;
+        }
+        .note {
+            background: #eef5ff;
+            padding: 10px;
+            border-left: 4px solid #003366;
+            margin: 15px 0;
+        }
+    </style>
+</head>
 
-<img width="792" height="632" alt="Screenshot 2026-01-18 220158" src="https://github.com/user-attachments/assets/9e87c9ad-5208-452c-9d12-b8029d66840d" />
-<img width="793" height="638" alt="Screenshot 2026-01-18 220121" src="https://github.com/user-attachments/assets/b6bcf1cd-b2e3-4f53-a02a-99befdba893e" />
-<img width="796" height="636" alt="Screenshot 2026-01-18 220045" src="https://github.com/user-attachments/assets/d0559743-c4fb-4143-9156-f883dfad18cc" />
-<img width="799" height="635" alt="Screenshot 2026-01-18 220017" src="https://github.com/user-attachments/assets/006f06c2-217a-46ff-83e0-bd22528f398b" />
-<img width="795" height="635" alt="Screenshot 2026-01-18 215942" src="https://github.com/user-attachments/assets/99c2dc09-1b94-4b11-9adf-b379892bda74" />
-<img width="796" height="630" alt="Screenshot 2026-01-18 215859" src="https://github.com/user-attachments/assets/0f7c7115-6508-46af-bb55-f88ad7671f33" />
-<img width="796" height="631" alt="Screenshot 2026-01-18 215831" src="https://github.com/user-attachments/assets/db9dc070-e447-4ee6-87c3-9594aa51505a" />
-<img width="798" height="634" alt="Screenshot 2026-01-18 215741" src="https://github.com/user-attachments/assets/91e44a9d-b499-42e4-8572-381759f59bd3" />
-<img width="797" height="631" alt="Screenshot 2026-01-18 215717" src="https://github.com/user-attachments/assets/6d5c0c42-9ad0-4dd5-a7fa-a87fbf134d8d" />
-<img width="798" height="631" alt="Screenshot 2026-01-18 221054" src="https://github.com/user-attachments/assets/277132cc-dc12-4998-9ff1-a04358f76517" />
-<img width="794" height="632" alt="Screenshot 2026-01-18 221012" src="https://github.com/user-attachments/assets/c334dada-018c-49b6-9cbf-aad227456cad" />
-<img width="797" height="636" alt="Screenshot 2026-01-18 220654" src="https://github.com/user-attachments/assets/5bf0672d-c631-467c-9ca8-798b71a91ede" />
-<img width="797" height="628" alt="Screenshot 2026-01-18 220641" src="https://github.com/user-attachments/assets/33a86ecf-44ed-4fed-baed-d8415815cd55" />
-<img width="795" height="641" alt="Screenshot 2026-01-18 220318" src="https://github.com/user-attachments/assets/55911ed7-0480-4b34-9e84-bfb9e8ceb559" />
-cropped.pdf)
+<body>
 
+<h1>🚌 Khulna University of Engineering and Technology<br>
+Bus 3D Visualization</h1>
 
+<p>
+A <strong>C++ / Modern OpenGL (3.3+)</strong> application that renders a detailed
+<strong>3D bus model</strong> using <strong>GLM</strong>. This project demonstrates
+procedural geometry, indexed & non-indexed rendering, shader management,
+camera transformations, and interactive keyboard controls.
+</p>
 
-# Khulna University of Engineering and Technology Bus 3D Visualization
+<hr>
 
-A C++/OpenGL application that renders a detailed 3D bus model using modern OpenGL (3.3+) and GLM. The project demonstrates procedural geometry, indexed and non-indexed meshes, shader management, camera transforms, and keyboard controls.
+<h2>✨ Features</h2>
+<ul>
+    <li>Composite 3D bus model built from cubes and cylinders</li>
+    <li>Indexed rendering (EBO) for cubes and cylinders</li>
+    <li>Procedural cylinder and wheel spoke generation</li>
+    <li>Toggleable headlights and taillights</li>
+    <li>Bus movement along X-axis with synchronized wheel rotation</li>
+    <li>Multiple camera modes with perspective projection</li>
+    <li>Interior, exterior, and driver view support</li>
+</ul>
 
-## Features
+<hr>
 
-- Composite bus model assembled from cubes and cylinders
-- Indexed rendering (EBO) for cubes and cylinders
-- Procedural cylinder and wheel spoke generation
-- Toggleable headlights/taillights
-- Bus movement along the X-axis with wheel rotation synchronization
-- Camera rotation and perspective projection
+<h2>🛠 Prerequisites</h2>
+<ul>
+    <li><strong>Operating System:</strong> Windows (tested), macOS/Linux (may work)</li>
+    <li><strong>IDE:</strong> Visual Studio 2022 (recommended)</li>
+    <li><strong>Graphics:</strong> OpenGL 3.3+ compatible GPU</li>
+</ul>
 
----
+<h3>📚 Libraries Used</h3>
+<ul>
+    <li><strong>GLAD</strong> – OpenGL function loader</li>
+    <li><strong>GLFW</strong> – Window creation and input handling</li>
+    <li><strong>GLM</strong> – Mathematics library</li>
+</ul>
 
-## Prerequisites
+<p>Libraries can be installed using <strong>vcpkg</strong> or manually.</p>
 
-- Development OS: Windows (tested), macOS/Linux may work with minor adjustments
-- Visual Studio 2022 recommended (MSVC)
-- OpenGL 3.3+ capable GPU
+<hr>
 
-### Libraries Used
+<h2>📁 Project Structure</h2>
+<ul>
+    <li><code>FileName.cpp</code> — Main application and input handling</li>
+    <li><code>Class.h</code> — Geometry classes (Cube, Cylinder, WheelSpokes)</li>
+    <li><code>BusModel.h</code> — Bus composition and rendering logic</li>
+    <li><code>Camera.h</code> — Camera and projection utilities</li>
+    <li><code>Shader.h</code> — Shader compilation and uniform helpers</li>
+    <li><code>Vertices.h</code> — Geometry helper functions</li>
+    <li><code>BusInterior.h</code> — Optional interior components</li>
+    <li><code>vertex.glsl</code> — Vertex shader</li>
+    <li><code>fragment.glsl</code> — Fragment shader</li>
+    <li><code>README.md</code> — Project documentation</li>
+</ul>
 
-- **GLAD**: OpenGL loader
-- **GLFW**: Windowing and input management
-- **GLM**: Mathematics library
+<div class="note">
+    Adjust file names and paths according to your Visual Studio project setup.
+</div>
 
-Libraries can be installed via vcpkg or manually.
+<hr>
 
----
+<h2>🎮 Controls</h2>
 
-## Project Structure
+<h3>General</h3>
+<ul>
+    <li><strong>ESC</strong> — Exit application</li>
+    <li><strong>F11</strong> — Toggle fullscreen mode</li>
+</ul>
 
-Files you'll typically work with:
+<h3>Bus Controls</h3>
+<ul>
+    <li><strong>F</strong> — Move bus forward (−X direction)</li>
+    <li><strong>B</strong> — Move bus backward (+X direction)</li>
+    <li><strong>R</strong> — Rotate wheels manually</li>
+    <li><strong>O</strong> — Toggle headlights / taillights</li>
+</ul>
 
-- `FileName.cpp`    — Application entry point, main loop, input handling
-- `Class.h`        — `Cube`, `Cylinder`, `WheelSpokes` classes (geometry)
-- `BusModel.h`     — Bus composition and high-level rendering logic
-- `Camera.h`       — View/projection utilities
-- `Shader.h`       — Shader loading/compilation/uniform helpers
-- `Vertices.h`     — Helper geometry functions
-- `BusInterior.h`  — Optional interior components
-- `vertex.glsl`    — Vertex shader source
-- `fragment.glsl`  — Fragment shader source
-- `README.md`      — This file
+<p><strong>Note:</strong> Wheel rotation automatically syncs with bus movement.</p>
 
-Adjust names/locations in your Visual Studio project as needed.
+<h3>Camera & Modes</h3>
+<ul>
+    <li><strong>L</strong> — Rotate camera slightly</li>
+    <li><strong>M</strong> — Toggle ORBIT / FREE-FLIGHT mode</li>
+</ul>
 
----
+<hr>
 
+<h2>🚀 FREE-FLIGHT Mode (Default)</h2>
 
-## Controls
+<h3>Movement</h3>
+<ul>
+    <li><strong>W / S</strong> — Move Forward / Backward</li>
+    <li><strong>A / D</strong> — Move Left / Right</li>
+    <li><strong>E / Q</strong> — Move Up / Down</li>
+</ul>
 
-- `ESC`  — Exit application
-- `L`    — Rotate camera (small step)
-- `F`    — Move bus forward (negative X direction)
-- `B`    — Move bus backward (positive X direction)
-- `R`    — Rotate wheels (manual increment)
-- `O`    — Toggle headlights/taillights
-- `F11`  — Toggle fullscreen mode
+<h3>Rotation</h3>
+<ul>
+    <li><strong>X / Shift+X</strong> — Pitch (Look Up / Down)</li>
+    <li><strong>Y / Shift+Y</strong> — Yaw (Look Left / Right)</li>
+    <li><strong>Z / Shift+Z</strong> — Roll (Rotate Left / Right)</li>
+</ul>
 
-**Behavior note**: `F` moves the bus along negative X (forward in scene), `B` moves it along positive X (backward). Wheel rotation is updated to match movement direction when pressing these keys.
+<h3>Zoom</h3>
+<ul>
+    <li><strong>Mouse Scroll</strong> — Zoom In / Out (FOV)</li>
+</ul>
 
-*** Press M to toggle between ORBIT and FREE-FLIGHT modes ***
+<hr>
 
-*** Press 3 for INTERIOR VIEW | Press 4 to return to exterior ***
-*** Press 5 for DRIVER VIEW | Press 6 to return to normal mode ***
+<h2>👁 View Modes</h2>
+<ul>
+    <li><strong>3</strong> — Interior View (rear of bus)</li>
+    <li><strong>4</strong> — Exit Interior View</li>
+    <li><strong>5</strong> — Driver View</li>
+    <li><strong>6</strong> — Exit Driver View</li>
+</ul>
 
-FREE-FLIGHT MODE (default)
-Movement:
-  W/S - Move Forward/Backward
-  A/D - Move Left/Right
-  E/Q - Move Up/Down
-Rotation:
-  X/Shift+X - Pitch (Look Up/Down)
-  Y/Shift+Y - Yaw (Look Left/Right)
-  Z/Shift+Z - Roll (Rotate Left/Right)
-Zoom:
-  Scroll - Zoom In/Out (FOV)
+<hr>
 
-VIEW MODES:
-  3 - Enter Interior View (rear of bus)
-  4 - Exit Interior View (return to exterior)
-  5 - Enter Driver View (behind driver seat)
-  6 - Exit Driver View (return to normal mode)
+<h2>🚪 Door Controls</h2>
+<ul>
+    <li><strong>1</strong> — Open doors</li>
+    <li><strong>2</strong> — Close doors</li>
+</ul>
 
-Door Controls:
-  1 - Open Doors
-  2 - Close Doors
+<hr>
+
+<h2>📌 Summary</h2>
+<p>
+This project demonstrates key <strong>modern OpenGL concepts</strong> including
+hierarchical modeling, procedural geometry, camera systems, and real-time
+interaction. It is suitable for graphics coursework, lab assignments, and
+OpenGL learning projects.
+</p>
+
+<p><strong>Developed for KUET – CSE OpenGL / Graphics Lab</strong></p>
+
+</body>
+</html>
